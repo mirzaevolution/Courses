@@ -34,7 +34,7 @@ switch(a)
 }
 
 //penjelasan:
-//if support complex operations dan operation yang kita belum tau resultnya
+//if support complex operations dan operation yang kita belum tau resultnya.
 //switch/case untuk kasus dimana value yang kita masukkan ke statement 'case' sudah
-//ter-define sebelumnya dan memiliki tipe data yang sama dengan tipe data variable didalam
+//ter-define (kita ketahui) sebelumnya dan memiliki tipe data yang sama dengan tipe data variable didalam
 //scope switch()
