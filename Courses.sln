@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Csharp Basic and History", "1. Csharp Basic and History", "{F68A7659-E99B-48E9-AF8B-A238A0E550D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "All Operators", "All Operators", "{DC6EFEDE-2C1C-4ED8-A284-00F51CEB4C63}"
+	ProjectSection(SolutionItems) = preProject
+		AndOrXorTrace.txt = AndOrXorTrace.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperators", "MathOperators\MathOperators.csproj", "{AF10D823-A523-4A7A-B1AE-4ADA93D5E3C4}"
 EndProject
