@@ -96,8 +96,8 @@ namespace MathOperators
             //Multiplication();
             //Division1();
             //Division2();
-            DivisionSafe();
-            //Modulus();
+            //DivisionSafe();
+            Modulus();
             Console.ReadLine();
         }
     }
