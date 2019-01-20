@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flow Controls", "Flow Contr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCaseSample", "SwitchCaseSample\SwitchCaseSample.csproj", "{F10F6C34-79D1-4057-92A8-AB9AC902D721}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopingStatements", "LoopingStatements\LoopingStatements.csproj", "{24AD89C0-B0FD-4753-BFEB-B270F98F3BE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{F10F6C34-79D1-4057-92A8-AB9AC902D721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F10F6C34-79D1-4057-92A8-AB9AC902D721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F10F6C34-79D1-4057-92A8-AB9AC902D721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24AD89C0-B0FD-4753-BFEB-B270F98F3BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AD89C0-B0FD-4753-BFEB-B270F98F3BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AD89C0-B0FD-4753-BFEB-B270F98F3BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AD89C0-B0FD-4753-BFEB-B270F98F3BE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +62,7 @@ Global
 		{5FF2FA34-17AA-48C1-9B45-2962BDBBEED7} = {DC6EFEDE-2C1C-4ED8-A284-00F51CEB4C63}
 		{D1A2D3F3-765A-4C3C-A383-118517FD95E5} = {F68A7659-E99B-48E9-AF8B-A238A0E550D1}
 		{F10F6C34-79D1-4057-92A8-AB9AC902D721} = {D1A2D3F3-765A-4C3C-A383-118517FD95E5}
+		{24AD89C0-B0FD-4753-BFEB-B270F98F3BE3} = {D1A2D3F3-765A-4C3C-A383-118517FD95E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F7F03CC-F4D6-40D2-B7E5-D746F7671973}
