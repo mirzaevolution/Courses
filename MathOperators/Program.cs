@@ -9,11 +9,11 @@ namespace MathOperators
     class Program
     {
         //penambahan dengan operator +
-        static void Addition()
+        static void Addition()      
         {
             int number1 = 123;
             int number2 = 321;
-            int sum = number1 + number2; //hasil
+            int sum = number1 + number2; //hasil   hfrey35u3
             Console.WriteLine("{0} + {1} = {2}", number1, number2, sum);
         }
         //pengurangan dengan operator -
