@@ -48,7 +48,9 @@ namespace MathOperators
         {
             int number1 = 100;
             int number2 = 0;
+
             int result = number1 / number2;
+
             Console.WriteLine("{0} / {1} = {2}", number1,number2, result);
         }
         //pembagian dengan nilai 0 (error namun error dapat di tangkap)
@@ -56,16 +58,25 @@ namespace MathOperators
         {
             int number1 = 100;
             int number2 = 0;
+
             try
             {
                 int result = number1 / number2;
+
                 Console.WriteLine("{0} / {1} = {2}", number1, number2, result);
 
             }
-            catch (DivideByZeroException)
+            //catch (System.DivideByZeroException ex)
+            //{
+            //    Console.WriteLine("Tidak dapat membagi bilangan dengan 0!");
+            //    Console.WriteLine("Error message: {0}", ex.Message);
+            //    Console.WriteLine("Stack Trace: {0}", ex.StackTrace);
+            //}
+            catch (Exception ex)
             {
-                Console.WriteLine("Tidak dapat membagi bilangan dengan 0!");
+                Console.WriteLine(ex.Message);
             }
+           
         }
         //operasi modulus dengan operator %
         static void Modulus()
@@ -80,13 +91,13 @@ namespace MathOperators
         }
         static void Main(string[] args)
         {
-            Addition();
-            Subtraction();
-            Multiplication();
-            Division1();
-            Division2();
+            //Addition();
+            //Subtraction();
+            //Multiplication();
+            //Division1();
+            //Division2();
             DivisionSafe();
-            Modulus();
+            //Modulus();
             Console.ReadLine();
         }
     }
