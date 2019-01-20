@@ -1,9 +1,17 @@
+true = 1
+false = 0
+
 AND = &&
 
 true and true = true
 true and false = false
 false and true = false
 false and false = false
+
+1100
+1101
+----- &
+1100 = 12
 
 
 OR ||
@@ -12,11 +20,26 @@ true or false = true
 false or true = true
 false or false = false
 
+1100
+1101
+----- |
+1101 = 13
 
 
 XOR ^
-true or true = false
-true or false = true
-false or true = true
-false or false = false
+true xor true = false
+true xor false = true
+false xor true = true
+false xor false = false
+
+1100
+1101
+----- ^
+0001 = 1
+
+
+
+
+
+
 
