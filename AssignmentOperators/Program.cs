@@ -10,6 +10,7 @@ namespace AssignmentOperators
     {
         static void Main(string[] args)
         {
+            //test
             Console.ReadLine();
         }
     }
