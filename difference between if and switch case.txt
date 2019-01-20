@@ -1,0 +1,40 @@
+int a = 34;
+
+//operasi dibawah ini valid untuk if
+if(a<=10)
+{
+    Console.WriteLine("1");
+}
+if(a<=10)
+{
+    Console.WriteLine("1");
+}
+else if(a>10 && a<=20)
+{
+    Console.WriteLine("2");
+}
+else
+{
+    Console.WriteLine("3");
+}
+
+
+//operasi dibawah ini invalid untuk case
+switch(a)
+{
+    case (a <= 10):
+        Console.WriteLine("1");
+        break;
+    case (a > 10 && a <= 20):
+        Console.WriteLine("2");
+        break;
+    default:
+        Console.WriteLine("3");
+        break;
+}
+
+//penjelasan:
+//if support complex operations dan operation yang kita belum tau resultnya
+//switch/case untuk kasus dimana value yang kita masukkan ke statement 'case' sudah
+//ter-define sebelumnya dan memiliki tipe data yang sama dengan tipe data variable didalam
+//scope switch()
