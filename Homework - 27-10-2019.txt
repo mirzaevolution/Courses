@@ -1,0 +1,9 @@
+Topic: Array 1 Dimensi
+
+1. harus ada validasi size of array (input)
+2. kasih validasi apabila size of array < 3, tampilkan error ke user dan program berhenti
+3. inisialisai array dengan size dari inputan user
+4. input data user sebagai integer ke array dengan validasi
+5. sort
+6. reverse  (tampung di variable array lain yang sizenya sama)
+7. 3 nilai terbesar (index 0, 1, 2)

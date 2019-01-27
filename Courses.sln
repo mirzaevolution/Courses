@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array", "Array", "{C145C4CD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayIntroduction", "ArrayIntroduction\ArrayIntroduction.csproj", "{DD27D5A7-D911-4B2B-B3CC-BE0BA34525D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array2Dimensi", "Array2Dimensi\Array2Dimensi.csproj", "{73A0EDEE-A2F0-492C-9F78-C2BFD6DAF807}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{DD27D5A7-D911-4B2B-B3CC-BE0BA34525D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD27D5A7-D911-4B2B-B3CC-BE0BA34525D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD27D5A7-D911-4B2B-B3CC-BE0BA34525D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A0EDEE-A2F0-492C-9F78-C2BFD6DAF807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A0EDEE-A2F0-492C-9F78-C2BFD6DAF807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A0EDEE-A2F0-492C-9F78-C2BFD6DAF807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A0EDEE-A2F0-492C-9F78-C2BFD6DAF807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{24AD89C0-B0FD-4753-BFEB-B270F98F3BE3} = {D1A2D3F3-765A-4C3C-A383-118517FD95E5}
 		{C145C4CD-D851-4F7D-9EB9-3AFB6BCAD303} = {F68A7659-E99B-48E9-AF8B-A238A0E550D1}
 		{DD27D5A7-D911-4B2B-B3CC-BE0BA34525D1} = {C145C4CD-D851-4F7D-9EB9-3AFB6BCAD303}
+		{73A0EDEE-A2F0-492C-9F78-C2BFD6DAF807} = {C145C4CD-D851-4F7D-9EB9-3AFB6BCAD303}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F7F03CC-F4D6-40D2-B7E5-D746F7671973}
