@@ -97,10 +97,135 @@ namespace ArrayIntroduction
                 Console.WriteLine(name);
             }
         }
+        static void Array3()
+        {
+            //initialize array part 1
+            int[] myNumbers = new int[5];
+
+            //assignment array (manual)
+            myNumbers[0] = 100;
+            myNumbers[1] = 200;
+            myNumbers[2] = 300;
+            myNumbers[3] = 400;
+            myNumbers[4] = 500;
+
+            //error karena set value diluar jangkauan array
+            try
+            {
+                //error
+                myNumbers[10] = 12;
+
+            }
+            catch(IndexOutOfRangeException error)
+            {
+                Console.WriteLine("Message: {0}", error.Message);
+                Console.WriteLine("Stacktrace: {0}", error.StackTrace);
+            }
+
+
+            //error karena get value diluar jangkauan array
+            try
+            {
+                //error
+                Console.WriteLine("Array index ke 100: {0}", myNumbers[100]);
+
+            }
+            catch (IndexOutOfRangeException error)
+            {
+                Console.WriteLine("Message: {0}", error.Message);
+                Console.WriteLine("Stacktrace: {0}", error.StackTrace);
+            }
+        }
+        static void HitungTotalData()
+        {
+            int[] array = new int[]
+            {
+                 13,
+                 2315,
+                 121,
+                 1312,
+                 923,
+                 10
+                 -123,
+                 -89,
+                 788
+            };
+            int sum = 0;
+
+            foreach(int item in array)
+            {
+                sum += item;
+            }
+            Console.WriteLine("Sum of array: {0}", sum);
+        }
+        static void ArrayFromInputUser()
+        {
+            int n;
+            Console.Write("Masukkan total data: ");
+
+            //validasi untuk mengecek nilai yang di-input user apakah integer atau bukan
+
+            if(int.TryParse(Console.ReadLine(), out n))
+            {
+                string[] names = new string[n];
+                Console.WriteLine("\nMasukkan nama user.");
+                for(int i = 0; i < n; i++)
+                {
+                    Console.Write("Masukkan nama ke - {0}: ", i + 1);
+                    string name = Console.ReadLine();
+                    names[i] = name;
+                }
+                Console.WriteLine("\nNama yang anda masukkan:");
+                foreach(string name in names)
+                {
+                    Console.WriteLine(name);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Masukkan nilai integer");
+            }
+        }
+        static void SortArray()
+        {
+            int[] numbers = new int[]
+            {
+                1231,
+                -3242,
+                9,
+                778,
+                3934,
+                234,
+                7345
+            };
+            string[] names = new string[]
+            {
+                "Mirza Ghulam Rasyid",
+                "Rara Anjani",
+                "Michael Hawk"
+            };
+            Array.Sort(numbers);
+            System.Array.Sort(names);
+
+            foreach(var number in numbers)
+            {
+                Console.WriteLine(number);
+            }
+            Console.WriteLine();
+            foreach(var name in names)
+            {
+                Console.WriteLine(name);
+            }
+        }
+
         static void Main(string[] args)
         {
             //Array1();
-            Array2();
+            //Array2();
+            //Array3();
+            //HitungTotalData();
+            //ArrayFromInputUser();
+            SortArray();
             Console.ReadLine();
         }
     }
